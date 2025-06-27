@@ -91,3 +91,41 @@ footer {
   color: #555;
   margin-top: 40px;
 }
+.manga-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.manga-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.manga-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.chapter-list li a {
+  text-decoration: none;
+  color: #5c2525;
+  font-weight: bold;
+}
+
+.chapter-list li a:hover {
+  color: #a04b4b;
+}
