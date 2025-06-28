@@ -78,8 +78,10 @@ main img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  margin-top: 20
+  margin-top: 20px; /* faltaba px y cerrar la propiedad */
+}
 
+/* Grupo de capítulos */
 .chapter-group {
   margin-bottom: 30px;
 }
@@ -108,4 +110,3 @@ main img {
 .chapter-link:hover {
   text-decoration: underline;
 }
-  
