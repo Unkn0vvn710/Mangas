@@ -47,22 +47,32 @@
       margin-bottom: 20px;
     }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
+    .chapter-group {
+      margin-bottom: 30px;
     }
 
-    li {
+    .chapter-group h3 {
+      color: #333;
       margin-bottom: 10px;
+      font-size: 20px;
     }
 
-    a.chapter-link {
+    .chapter-group ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .chapter-group li {
+      margin: 5px 0;
+    }
+
+    .chapter-link {
       color: #007BFF;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 16px;
     }
 
-    a.chapter-link:hover {
+    .chapter-link:hover {
       text-decoration: underline;
     }
   </style>
@@ -84,11 +94,33 @@
   <main>
     <img src="manga2.jpg" alt="Portada de Goblin Slayer">
     <h2>Capítulos disponibles</h2>
-    <ul>
-      <li><a class="chapter-link" href="capitulo1.html">Capítulo 1</a></li>
-      <li><a class="chapter-link" href="capitulo2.html">Capítulo 2</a></li>
-      <li><a class="chapter-link" href="capitulo3.html">Capítulo 3</a></li>
-    </ul>
+
+    <section class="chapter-group">
+      <h3>Capítulos 1 - 3</h3>
+      <ul>
+        <li><a class="chapter-link" href="capitulo1.html">Capítulo 1</a></li>
+        <li><a class="chapter-link" href="capitulo2.html">Capítulo 2</a></li>
+        <li><a class="chapter-link" href="capitulo3.html">Capítulo 3</a></li>
+      </ul>
+    </section>
+
+    <section class="chapter-group">
+      <h3>Capítulos 4 - 6</h3>
+      <ul>
+        <li><a class="chapter-link" href="capitulo4.html">Capítulo 4</a></li>
+        <li><a class="chapter-link" href="capitulo5.html">Capítulo 5</a></li>
+        <li><a class="chapter-link" href="capitulo6.html">Capítulo 6</a></li>
+      </ul>
+    </section>
+
+    <section class="chapter-group">
+      <h3>Capítulos 7 - 9</h3>
+      <ul>
+        <li><a class="chapter-link" href="capitulo7.html">Capítulo 7</a></li>
+        <li><a class="chapter-link" href="capitulo8.html">Capítulo 8</a></li>
+        <li><a class="chapter-link" href="capitulo9.html">Capítulo 9</a></li>
+      </ul>
+    </section>
   </main>
 
   <footer>
