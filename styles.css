@@ -79,3 +79,33 @@ main img {
   max-width: 200px;
   height: auto;
   margin-top: 20
+
+.chapter-group {
+  margin-bottom: 30px;
+}
+
+.chapter-group h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.chapter-group ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.chapter-group li {
+  margin: 5px 0;
+}
+
+.chapter-link {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.chapter-link:hover {
+  text-decoration: underline;
+}
+  
