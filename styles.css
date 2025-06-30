@@ -57,7 +57,7 @@ main {
   margin: 40px auto;
   padding: 40px 20px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(88, 88, 88);
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
