@@ -4,8 +4,96 @@
   <meta charset="UTF-8">
   <title>Solo Leveling</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ddd;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      display: flex;
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 1000px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .left {
+      flex: 1;
+    }
+
+    .left img {
+      width: 250px;
+      border-radius: 8px;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .right {
+      flex: 2;
+      padding-left: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      gap: 10px 30px;
+    }
+
+    .capitulo {
+      width: 140px;
+    }
+
+    .capitulo a {
+      text-decoration: none;
+      color: #0056b3;
+    }
+
+    .capitulo a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 15px 0;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Solo Leveling</h1>
     <nav>
@@ -19,17 +107,32 @@
   </header>
 
   <main>
-    <img src="solo leveling.png" alt="Solo Leveling" width="300">
-    <h2>Capítulos</h2>
-    <ul>
-      <li><a href="capitulo1.html">Capítulo 1</a></li>
-      <li><a href="capitulo2.html">Capítulo 2</a></li>
-      <li><a href="capitulo3.html">Capítulo 3</a></li>
-    </ul>
+    <div class="left">
+      <img src="3ec26881-a18a-4209-b0ee-6631aa3faae7.png" alt="Solo Leveling">
+      <div class="sinopsis">
+        En un mundo donde los cazadores luchan contra monstruos para proteger a la humanidad, 
+        Sung Jin-Woo, el más débil de todos, descubre un poder oculto que podría cambiarlo todo...
+      </div>
+    </div>
+    <div class="right">
+      <!-- Capítulos (puedes agregar más) -->
+      <div class="capitulo"><a href="capitulo1.html">Capítulo 1</a></div>
+      <div class="capitulo"><a href="capitulo2.html">Capítulo 2</a></div>
+      <div class="capitulo"><a href="capitulo3.html">Capítulo 3</a></div>
+      <div class="capitulo"><a href="#">Capítulo 4</a></div>
+      <div class="capitulo"><a href="#">Capítulo 5</a></div>
+      <div class="capitulo"><a href="#">Capítulo 6</a></div>
+      <div class="capitulo"><a href="#">Capítulo 7</a></div>
+      <div class="capitulo"><a href="#">Capítulo 8</a></div>
+      <div class="capitulo"><a href="#">Capítulo 9</a></div>
+      <div class="capitulo"><a href="#">Capítulo 10</a></div>
+      <!-- Puedes continuar hasta Capítulo 200+ -->
+    </div>
   </main>
 
   <footer>
     <p>&copy; 2025 - Unknown Scan</p>
   </footer>
+
 </body>
 </html>
